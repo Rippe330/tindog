@@ -1,0 +1,218 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#title {
+    background-color: #ff4c68;
+    
+}
+
+.wtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+   
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+
+.navbar {
+    
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;  
+    font-size: 1.2rem;
+}
+
+.dog-image {
+    width: 18%;
+    height: 75%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+
+.btn {
+    margin: 5% 3% 5% 0;
+}
+
+.iconp {
+    color: #ef8172;
+    transform: scale(120%);
+}
+
+.iconp:hover {
+    color: #ff4c68;
+}
+
+.midcont {
+    text-align: center;
+}
+
+.subh {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+    font-size: 1.5rem;
+}
+
+.desc {
+    color: #8f8f8f;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#features {
+    background-color: white;
+    position: relative;
+    
+}
+
+.midcont {
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+
+
+.features1 {
+    padding-top: 2rem;
+}
+
+::selection {
+    background-color: #ff4c68;
+    color: #eaeaea;
+    
+}
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.test-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.pebbles {
+    font-weight: 600;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+
+}
+
+.logos {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.price-column {
+    padding: 3% 2%;
+}
+
+.card-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+@media (max-width: 1028px) {
+    .dog-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-bottom: 5%;
+}
+
+.bottom-txt {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    
+}
+
+#footer {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.footer-icons {
+    width: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-text {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
