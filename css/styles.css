@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -207,7 +211,7 @@ h2 {
 }
 
 .footer-icons {
-    width: 10%;
+    width: 150px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
